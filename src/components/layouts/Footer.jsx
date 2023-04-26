@@ -4,10 +4,12 @@ import { Text } from '../atoms';
 
 const FooterStyled = styled(FlexBox)`
    background-color: ${colors.greyDark};
+   bottom: 0;
    color: ${colors.text1};
-   padding: ${dimensions.spacing.base} 3rem;
-   height: 10rem;
    gap: 0.5rem;
+   height: 10rem;
+   padding: ${dimensions.spacing.base} 3rem;
+   width: 100%;
 `;
 
 const Footer = () => {
