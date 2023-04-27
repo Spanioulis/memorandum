@@ -4,7 +4,7 @@ import { FlexBox } from '../../styles';
 const Body = ({ children }) => {
    return (
       <FlexBox>
-         <Header />
+         <Header data-testid="header" />
          <Subheader />
          {children}
          <Footer />
